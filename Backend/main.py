@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-GOOGLE_API_KEY = os.getenv('AIzaSyBz1QtSqc-ylGWRJ_MbkGrRX27GNzrqoQk')
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
