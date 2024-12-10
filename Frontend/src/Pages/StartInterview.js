@@ -43,7 +43,7 @@ export class StartInterview extends PureComponent {
         {/* Footer */}
         <footer className="w-full py-4 bg-white text-black text-center mt-auto">
           <p className="text-sm" style={{ fontFamily: 'CP Roaman 3, sans-serif' }}>
-            © 2024 HackthisFall Virtual
+            © CP III Vishal, Nikhil, Tirth, Khushi
           </p>
         </footer>
       </div>
