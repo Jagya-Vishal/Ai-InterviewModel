@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chat-container {
+    max-width: 1001px;
+    /* margin: 20px auto; */
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    overflow: hidden;
+    /* padding: 40px; */
+}
+
+/* .request
+{
+    justify-self: flex-end;
+} */
+    
+/* 
+.chat-form .fas.fa-microphone {
+    font-size: 24px;
+    padding:10px;
+    
+} */
+
+
+.chat-messages {
+    padding: 10px;
+    overflow-y: scroll;
+    height: 450px;
+}
+.MAIN {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 87vh;
+}
+
+.message, .request {
+    margin-bottom: 10px;
+    /* text-wrap: wrap; */
+}
+
+.message-container {
+    display: flex;
+}
+
+.message-container:has(.request) {
+    justify-content: end;
+}
+
+.user-message {
+    background-color: #d9f9fb;
+    padding: 5px 10px;
+    border-radius: 10px;
+    max-width: 70%;
+}
+
+.bot-message {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.chat-form {
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 200px; /* Increase size */
+    height: 200px; /* Increase size */
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    display: block; /* Ensure block-level element behavior */
+}
+
+
+.chat-form input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.chat-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.chat-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.img-position{
+    margin-right: 20px;
+    height: 90%;
+    border: solid gray 1px;
+    border-radius: 10px;
+    min-width: 300px;
+    overflow: hidden;
+}
+
+:root {
+    --bg-color: #ffffff; /* Default background color */
+    --text-color: #000000; /* Default text color */
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.dark-mode body {
+    background-color: #333333; /* Dark mode background color */
+    color: #ffffff; /* Dark mode text color */
+}
+
+.toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.toggle-btn i {
+    font-size: 24px;
+}
+
+.message-style {
+    background-color: #bbd59e;
+    font-size: 16px;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 10px;
+    /* width: fit-content; */
+    float: right;
+    max-width: 70%;
+}
+
+.chat-button {
+    padding: 5px;
+    background-color: #45a049;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+}
