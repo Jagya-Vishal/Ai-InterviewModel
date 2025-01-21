@@ -35,6 +35,7 @@ to install dependencies
 
 Run the flask backend server using
 ```
+.\venv\Scripts\Activate.ps1
 flask --app Backend/main run
 ```
 
